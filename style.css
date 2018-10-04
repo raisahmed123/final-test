@@ -1,0 +1,68 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+.text{
+    color: red;
+    font-weight: bold;
+}
+.text::first-letter{
+    font-size: 50px;
+}
+
+.nav-link {
+    color:gray;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+
+}
+
+/*.content {
+    border: 1px solid black;
+}*/
+.content1 {
+    width: 400px;
+    height: 300px; 
+    margin: 100px 0 0 10px;
+    /*border: 1px solid blue;*/
+}
+
+.content {
+     width: 650px;
+
+}
+
+.picture {
+    width: 650px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.heading {
+    margin: 10px 0 50px 0;
+}
+
+button {
+    color: white;
+    background-color: green;
+    border:none;
+    border-radius:2px;
+}
+
+.desc {
+    margin-left: 40px;
+}
+/*.image {
+    width: 400px;
+}*/
+/* Write all your CSS here! */
